@@ -22,7 +22,7 @@ body {
 .header__contant {
   margin-top: 194px;
   max-width: 635px;
-  text-align: left;
+  margin-right: auto;
 }
 .header__title {
   font-family: "Russo One", sans-serif;
@@ -34,13 +34,19 @@ body {
   margin-top: 35px;
 }
 
+.about__contant {
+  margin-top: 375px;
+  max-width: 570px;
+  margin-left: auto;
+}
 .about__title {
   font-family: "Russo One", sans-serif;
-  margin-top: 375px;
   font-size: 36px;
   line-height: 43px;
   text-transform: uppercase;
   color: #ffffff;
+  border-bottom: 2px solid linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
+  padding-bottom: 20px;
 }
 .about__text {
   font-size: 24px;
