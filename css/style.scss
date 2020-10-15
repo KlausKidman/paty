@@ -12,6 +12,10 @@ body {
     color: #6B6B6A;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -19,7 +23,29 @@ body {
 
 .menu {
     position: fixed;
+    transform: rotate(-90deg) ;
+    top: 40%;
 
+    &__list {
+        display: inline;
+
+    }
+
+    &__itam {
+        display: inline;
+
+    }
+
+    &__link {
+        font-family: 'Russo One', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #383838;
+        &:hover{
+            color: #FDF400;      
+        }
+    }
 }
 
 .header {
@@ -58,8 +84,15 @@ body {
         line-height: 43px;
         text-transform: uppercase;
         color: #ffffff;
-        border-bottom: 2px solid linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
-        padding-bottom: 20px;
+    }
+
+    &__line {
+        height: 2px;
+        width: 100%;
+        background: linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     &__text {

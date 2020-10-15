@@ -7,6 +7,10 @@ body {
   color: #6B6B6A;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -14,6 +18,24 @@ body {
 
 .menu {
   position: fixed;
+  transform: rotate(-90deg);
+  top: 40%;
+}
+.menu__list {
+  display: inline;
+}
+.menu__itam {
+  display: inline;
+}
+.menu__link {
+  font-family: "Russo One", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #383838;
+}
+.menu__link:hover {
+  color: #FDF400;
 }
 
 .header__logo {
@@ -45,8 +67,14 @@ body {
   line-height: 43px;
   text-transform: uppercase;
   color: #ffffff;
-  border-bottom: 2px solid linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
-  padding-bottom: 20px;
+}
+.about__line {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .about__text {
   font-size: 24px;
