@@ -1,87 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Russo+One&display=swap");
 body {
-  background: #242424;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  line-height: 34px;
-  color: #6B6B6A;
+    background: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #6B6B6A;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .menu {
-  position: fixed;
-  transform: rotate(-90deg) translateX(-425px);
-  left: 10%;
-  display: flex;
+    position: fixed;
+    transform: rotate(-90deg) translateY(-425px);
+    left: 10%;
+    display: flex;
 }
+
 .menu__list {
-  display: inline;
+    display: inline;
 }
+
 .menu__itam {
-  display: inline;
-  margin-right: 20px;
+    display: inline;
+    margin-right: 20px;
 }
+
 .menu__itam:last-child {
-  margin-right: 0px;
+    margin-right: 0px;
 }
+
 .menu__link {
-  font-family: "Russo One", sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  text-transform: uppercase;
-  color: #383838;
+    font-family: "Russo One", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #383838;
 }
+
 .menu__link:hover {
-  color: #FDF400;
+    color: #FDF400;
 }
 
 .header__logo {
-  margin-top: 41px;
+    margin-top: 41px;
 }
+
 .header__contant {
-  margin-top: 194px;
-  max-width: 635px;
-  margin-right: auto;
+    margin-top: 194px;
+    max-width: 635px;
+    margin-right: auto;
 }
+
 .header__title {
-  font-family: "Russo One", sans-serif;
-  font-size: 64px;
-  line-height: 77px;
-  color: #ffffff;
+    font-family: "Russo One", sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    color: #ffffff;
 }
+
 .header__text {
-  margin-top: 35px;
+    margin-top: 35px;
 }
 
 .about__contant {
-  margin-top: 375px;
-  max-width: 570px;
-  margin-left: auto;
+    margin-top: 375px;
+    max-width: 570px;
+    margin-left: auto;
 }
+
 .about__title {
-  font-family: "Russo One", sans-serif;
-  font-size: 36px;
-  line-height: 43px;
-  text-transform: uppercase;
-  color: #ffffff;
+    font-family: "Russo One", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
+
 .about__line {
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
-  border: none;
-  margin-top: 20px;
-  margin-bottom: 40px;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
+
 .about__text {
-  font-size: 24px;
-  line-height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+
+/* Our Team */
+
+.team__line {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #FDF400, rgba(253, 244, 0, 0));
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
