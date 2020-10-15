@@ -18,9 +18,7 @@ a {
 
 .menu {
   position: fixed;
-  transform: rotate(-90deg) translateX(-425px);
-  left: 10%;
-  display: flex;
+  transform: rotate(-90deg) translateX(-425px) translateY(-200px);
 }
 .menu__list {
   display: inline;
