@@ -18,14 +18,19 @@ a {
 
 .menu {
   position: fixed;
-  transform: rotate(-90deg);
-  top: 40%;
+  transform: rotate(-90deg) translateX(-425px);
+  left: 10%;
+  display: flex;
 }
 .menu__list {
   display: inline;
 }
 .menu__itam {
   display: inline;
+  margin-right: 20px;
+}
+.menu__itam:last-child {
+  margin-right: 0px;
 }
 .menu__link {
   font-family: "Russo One", sans-serif;
