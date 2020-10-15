@@ -101,6 +101,14 @@ a {
     max-width: 570px;
 }
 
+.team__title {
+    font-family: "Russo One", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 .team__line {
     height: 2px;
     width: 100%;
