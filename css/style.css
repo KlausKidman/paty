@@ -124,6 +124,7 @@ a {
 }
 .item-team {
     max-width: 350px;
+    position: relative;
 }
 .item-team__text {
     background: #383838;
@@ -144,3 +145,25 @@ a {
     font-family: 'Montserrat';
     color: #fff;
 }
+
+.item-team__hover-block {
+    background: yellow;
+    max-width: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+/* .item-team__text:hover .item-team__hover-block {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
