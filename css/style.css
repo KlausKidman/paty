@@ -17,15 +17,8 @@ a {
 }
 
 .menu {
-<<<<<<< HEAD
     position: fixed;
-    transform: rotate(-90deg) translateY(-425px);
-    left: 10%;
-    display: flex;
-=======
-  position: fixed;
-  transform: rotate(-90deg) translateX(-425px) translateY(-200px);
->>>>>>> a342b09632ed604a211d4cea5095a4d928286e73
+    transform: rotate(-90deg) translateX(-425px) translateY(-200px);
 }
 
 .menu__list {
@@ -104,6 +97,9 @@ a {
 
 
 /* Our Team */
+.team__header {
+    max-width: 570px;
+}
 
 .team__line {
     height: 2px;
